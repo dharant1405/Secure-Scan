@@ -1,0 +1,6 @@
+{
+    "Apache/2.4.49": "Critical Path Traversal Vulnerability",
+    "OpenSSH_7.2": "Outdated SSH Version",
+    "vsFTPd 2.3.4": "Backdoor Vulnerability",
+    "nginx/1.16": "Potentially Outdated Version"
+}

@@ -1,0 +1,65 @@
+
+    <html>
+    <head>
+        <title>SecureScan Report</title>
+
+        <style>
+            body {
+                font-family: Arial;
+                background: #111;
+                color: #0f0;
+                padding: 20px;
+            }
+
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                margin-top: 20px;
+            }
+
+            th, td {
+                border: 1px solid #0f0;
+                padding: 10px;
+                text-align: left;
+            }
+
+            h1, h2 {
+                color: cyan;
+            }
+        </style>
+    </head>
+
+    <body>
+
+    <h1>SecureScan Vulnerability Report</h1>
+
+    <p><b>Target:</b> example.com</p>
+    <p><b>Generated:</b> 2026-05-24 21:26:03.314501</p>
+
+    <h2>Open Ports</h2>
+
+    <table>
+        <tr>
+            <th>Port</th>
+            <th>Service</th>
+            <th>Banner</th>
+            <th>Vulnerability</th>
+        </tr>
+    
+        <tr>
+            <td>80</td>
+            <td>HTTP</td>
+            <td>No Banner Detected</td>
+            <td>No Known Vulnerabilities Found</td>
+        </tr>
+        
+        <tr>
+            <td>443</td>
+            <td>HTTPS</td>
+            <td>No Banner Detected</td>
+            <td>No Known Vulnerabilities Found</td>
+        </tr>
+        </table><h2>HTTP Security Headers</h2><p>Content-Security-Policy: False</p><p>X-Frame-Options: False</p><p>Strict-Transport-Security: False</p><p>X-Content-Type-Options: False</p><h2>SSL Information</h2><p>valid: True</p><p>expiry_date: Jul  1 21:24:46 2026 GMT</p><p>days_left: 37</p>
+    </body>
+    </html>
+    
